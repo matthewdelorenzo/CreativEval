@@ -1,0 +1,154 @@
+
+import os
+import pandas as pd
+import torch
+import torch.nn as nn
+import transformers
+from transformers import AutoTokenizer, AutoModelForCausalLM, LlamaForCausalLM
+import torch
+import pandas as pd 
+import os
+import subprocess
+from openai import OpenAI
+
+#Sey your OPENAI_API_KEY to your OpenAI API secret key.
+
+def subtract_prompt(row):
+    return row['Generation'][len(row['Prompt']):]
+
+def remove_prompt_from_output(prompt, output):
+    # Ensure the output starts with the prompt
+    if output.startswith(prompt):
+        print("Trimmed output: ", output[len(prompt):])
+        return output[len(prompt):]
+    else:
+        print("Error: The output does not start with the prompt.")
+        print("Output: ", output)
+        return output
+
+def list_directories(path):
+    print("Listing directories: ")
+    return [d for d in os.listdir(path) if os.path.isdir(os.path.join(path, d))]
+
+def write_results(prompt, result_text, iteration, sample, module_name):
+    print("Writing result file: ")
+    full_text = result_text
+    filepath = "gpt_dump2/flex_3/" + module_name + "_" + iteration + "_" + sample + ".v"
+    with open(filepath, 'w') as temp_file:
+        temp_file.write(full_text)
+    return filepath
+
+def read_prompt(prompt_file):
+        print("Reading prompt")
+        output_prompt = ""
+        if prompt_file.endswith(".v"):
+                with open(prompt_file, 'r') as file:
+                    output_prompt = file.read()
+        else:
+            print(prompt_file)
+            print("Error reading the prompt")
+            return 0
+        return output_prompt
+
+
+def compile_code(output_file, result_file, testbench_path):
+        proc = subprocess.run(["iverilog", "-o", output_file, "-g2012", result_file, testbench_path],capture_output=True,text=True)
+        if proc.returncode != 0:
+            print("error compiling testbench: ", testbench_path)
+            print("Return code:", proc.returncode)
+            print("stderr:", proc.stderr)
+        elif proc.stderr != "":
+            print("Warnings compiling testbench: ", testbench_path)
+            print("stderr:", proc.stderr)
+        else:
+            print("Successful compilation - running simulation")
+        return proc
+
+def chat_with_chatgpt(prompt, model="gpt-3.5-turbo"):
+    client = OpenAI(api_key=OPENAI_API_KEY)
+
+    response = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "user", "content": prompt}
+            ],
+            max_tokens=1024,
+            n=1,
+            stop=None,
+            temperature=0.3,
+        )
+    text = response.choices[0].message.content
+    print("Message: ", text)
+    top_module_index = text.find("module top_module (")
+    end_token_index = text.find("endmodule", top_module_index)
+    if end_token_index != -1:
+        print("Cutting off at first endmodule: ")
+        text = text[:end_token_index] + "endmodule"
+    print("Generated text: ")
+    print(text)
+    return text
+
+
+def simulate_code(output_file):
+        try:
+            simulation_output = subprocess.check_output(['vvp', output_file], stderr=subprocess.STDOUT)
+            simulation_exit_code = 0
+        except subprocess.CalledProcessError as e:
+            simulation_output = e.output
+            simulation_exit_code = e.returncode
+        if simulation_exit_code == 0:
+            print("Verilog testbench simulation ran successfully.")
+            if b"all tests passed" in simulation_output or b"All tests passed" in simulation_output:
+                print("Simulation output: ", simulation_output, end='\n\n')
+                print("All testbench tests passed!")
+                reward = 1
+            else:
+                print("Some testbench tests failed.")
+                print("Simulation output: ", simulation_output,end='\n\n')
+                reward = -1
+        else: 
+            print("Verilog testbench simulation failed.")
+            print("Simulation output: ", simulation_output,end='\n\n')
+            reward = -1
+        return reward
+
+tb_dir = "/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/rltf/AutoChip/pairs"
+module_dir = "/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/AutoChip-main/flexibility_prompts"
+#module_dir = "/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/test"
+pair_dirs = os.listdir(module_dir)
+answers = []
+scores = []
+print("MODEL NAME:  GPT 4")
+for iteration, dir in enumerate(pair_dirs):
+    dir = str(dir)
+    print("-----ITERATION: ", iteration, "-------", " Module:",dir)
+    for sample in range(10):
+        print("-----SAMPLE: ", sample, "-------", " Module:", dir)
+        sample_answers = []
+        sample_scores = []	
+        prompt_file= os.path.join(module_dir, dir)
+        reward = 1
+        prompt_text = read_prompt(prompt_file)
+        module_name = os.path.splitext(dir)[0]
+        generation = chat_with_chatgpt(prompt_text)
+        result_file = write_results(prompt_text, generation, str(iteration), str(sample), module_name)
+        testbench_path = tb_dir + "/" + module_name + "/" + module_name + "_0_tb.v"
+        if os.path.exists(testbench_path):
+            output_file = "gpt_dump/flex_3/" + module_name + "_compile" + str(iteration) + "_" + str(sample)
+            proc = compile_code(output_file, result_file, testbench_path)
+            if proc.returncode == 0:
+                curr_reward = simulate_code(output_file)
+                if(curr_reward == -1):
+                    reward = -0.5
+            else:
+                reward = -1
+
+            generation_trim = remove_prompt_from_output(prompt_text, generation)
+            sample_answers.append(generation_trim)
+            sample_scores.append(reward)
+        print("Reward = ", reward)
+        answers.append(sample_answers)
+        scores.append(sample_scores)
+        
+print("ALL REWARDS: ", scores)
+print("ALL ANSWERS: ", answers)

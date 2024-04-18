@@ -1,0 +1,26 @@
+﻿1.Please change all the paths used in the files according to your computer.
+
+2.User can get his own stildpv libary by installing VCS software.
+
+3.Home directory includes:
+ 3.1 src
+ ---inc.h: Includes parameters definition.
+ ---uart*: Source code
+ 3.2 Spec.doc
+ ---Specification
+3.3 RS232-T600.pdf
+ ---Evaluation results
+
+4.Trojan 
+  Trojan Description
+	Trojan trigger is a state machine inserted in the transmitter part of micro-UART core. The state machine seeks the sequence of 8’hAA, 8’h55, 8’h22, and 8’hFF. Activated Trojan sticks xmit_doneH output signal at ‘1’ and replaces the 7th bit of transmitted data.
+
+  Trojan Taxonomy
+	Insertion phase: Design
+	Abstraction level: Register-transfer level (RTL)
+	Activation mechanism: Internally conditionally triggered
+	Effects: Leakage information and Denial of service
+	Physical characteristics: Functional 
+
+
+

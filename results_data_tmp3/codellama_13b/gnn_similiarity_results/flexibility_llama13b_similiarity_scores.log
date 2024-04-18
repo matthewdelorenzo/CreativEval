@@ -1,0 +1,309 @@
+Verilog files written for row 2
+Preparing data for  Wire4.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 7 , 4 , 1.1995346546173096
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 7 , 4 , 1.1275103092193604
+Similarity Wire4.v: 0.6377560496330261
+
+Pirated
+Verilog files written for row 4
+Preparing data for  Vector5.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 27 , 51 , 1.265791416168213
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 27 , 51 , 1.1747519969940186
+Similarity Vector5.v: 0.8523470163345337
+
+Pirated
+Verilog files written for row 5
+Preparing data for  Vector2.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 15 , 17 , 1.2324612140655518
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 15 , 17 , 1.3534390926361084
+Similarity Vector2.v: 0.6875048875808716
+
+Pirated
+Verilog files written for row 6
+Preparing data for  Vector0.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 22 , 17 , 1.2363831996917725
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 15 , 13 , 1.3415606021881104
+Similarity Vector0.v: 0.8886072039604187
+
+Pirated
+Verilog files written for row 7
+Preparing data for  Xnorgate.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 5 , 4 , 1.217702865600586
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 5 , 4 , 1.1847953796386719
+Similarity Xnorgate.v: 0.14601658284664154
+
+Not pirated
+Verilog files written for row 8
+Preparing data for  Wire.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 2 , 1 , 1.2554266452789307
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 2 , 1 , 1.2396321296691895
+Similarity Wire.v: 0.16967986524105072
+
+Not pirated
+Verilog files written for row 10
+Preparing data for  Vector4.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 75 , 98 , 1.3579282760620117
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 75 , 98 , 1.240055799484253
+Similarity Vector4.v: -0.6280879974365234
+
+Pirated
+Verilog files written for row 12
+Preparing data for  Thermostat.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 14 , 12 , 1.2173919677734375
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 14 , 12 , 1.230933666229248
+Similarity Thermostat.v: 0.9273630380630493
+
+Pirated
+Verilog files written for row 13
+Preparing data for  Vector3.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 14 , 10 , 1.2416036128997803
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 14 , 10 , 1.2488837242126465
+Similarity Vector3.v: 0.6372836828231812
+
+Pirated
+Verilog files written for row 14
+Preparing data for  Vector1.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 9 , 8 , 1.3514413833618164
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 9 , 8 , 1.2943551540374756
+Similarity Vector1.v: 0.7024053931236267
+
+Pirated
+Verilog files written for row 18
+Preparing data for  Step_one.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 2 , 1 , 1.4071667194366455
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 2 , 1 , 1.3550329208374023
+Similarity Step_one.v: 0.040829915553331375
+
+Not pirated
+Verilog files written for row 29
+Preparing data for  Mux2to1v.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 5 , 4 , 1.310342788696289
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 5 , 4 , 1.476698398590088
+Similarity Mux2to1v.v: 0.49557891488075256
+
+Not pirated
+Verilog files written for row 30
+Preparing data for  Mux2to1.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 7 , 5 , 1.278841257095337
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 5 , 4 , 1.310765266418457
+Similarity Mux2to1.v: 0.4374505281448364
+
+Not pirated
+Verilog files written for row 31
+Preparing data for  Mux256to1v.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 14 , 14 , 1.2657406330108643
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 14 , 14 , 1.2856934070587158
+Similarity Mux256to1v.v: 0.8134898543357849
+
+Pirated
+Verilog files written for row 32
+Preparing data for  Mux256to1.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 4 , 3 , 1.4464123249053955
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 4 , 3 , 1.2133891582489014
+Similarity Mux256to1.v: 0.6743826270103455
+
+Pirated
+Verilog files written for row 33
+Preparing data for  Mt2015_q4a.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 5 , 5 , 1.26115083694458
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 5 , 5 , 1.4529075622558594
+Similarity Mt2015_q4a.v: 0.40851616859436035
+
+Not pirated
+Verilog files written for row 45
+Preparing data for  Kmap4.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 52 , 79 , 1.3069565296173096
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 52 , 79 , 1.3431739807128906
+Similarity Kmap4.v: 0.935636043548584
+
+Pirated
+Verilog files written for row 46
+Preparing data for  Kmap3.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 11 , 13 , 1.2981128692626953
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 11 , 13 , 1.2239327430725098
+Similarity Kmap3.v: 0.8329194188117981
+
+Pirated
+Verilog files written for row 47
+Preparing data for  Kmap2.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 36 , 52 , 1.3687949180603027
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 36 , 52 , 1.245199203491211
+Similarity Kmap2.v: 0.9561087489128113
+
+Pirated
+Verilog files written for row 48
+Preparing data for  Kmap1.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 10 , 9 , 1.3313121795654297
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 10 , 9 , 1.2844109535217285
+Similarity Kmap1.v: 0.02746114321053028
+
+Not pirated
+Verilog files written for row 49
+Preparing data for  Hadd.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 9 , 9 , 1.298095703125
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 9 , 9 , 1.2822351455688477
+Similarity Hadd.v: 0.8605436086654663
+
+Pirated
+Verilog files written for row 51
+Preparing data for  Gates4.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 49 , 57 , 1.2637319564819336
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 49 , 57 , 1.2716765403747559
+Similarity Gates4.v: 0.8408937454223633
+
+Pirated
+Verilog files written for row 52
+Preparing data for  Gates100.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 7 , 6 , 1.3496792316436768
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 7 , 6 , 1.247326135635376
+Similarity Gates100.v: 0.6973022222518921
+
+Pirated
+Verilog files written for row 53
+Preparing data for  Gates.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 20 , 25 , 1.3497295379638672
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 20 , 25 , 1.2138261795043945
+Similarity Gates.v: 0.9410079717636108
+
+Pirated
+Verilog files written for row 62
+Preparing data for  Fadd.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 12 , 16 , 1.2499113082885742
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 12 , 16 , 1.3273582458496094
+Similarity Fadd.v: 0.8697160482406616
+
+Pirated
+Verilog files written for row 72
+Preparing data for  Exams_m2014_q3.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 70 , 83 , 1.2525582313537598
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 70 , 83 , 1.3484575748443604
+Similarity Exams_m2014_q3.v: 0.8712705969810486
+
+Pirated
+Verilog files written for row 76
+Preparing data for  Exams_ece241_2014_q3.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 8 , 10 , 1.2716867923736572
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 8 , 10 , 1.2071456909179688
+Similarity Exams_ece241_2014_q3.v: 0.39806830883026123
+
+Not pirated
+Verilog files written for row 80
+Preparing data for  Exams_ece241_2013_q2.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 17 , 20 , 1.3315582275390625
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 17 , 20 , 1.203104019165039
+Similarity Exams_ece241_2013_q2.v: 0.9449599385261536
+
+Pirated
+Verilog files written for row 83
+Preparing data for  Exams_2014_q3c.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 84 , 92 , 1.3956828117370605
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 84 , 92 , 1.2702844142913818
+Similarity Exams_2014_q3c.v: 0.9224668145179749
+
+Pirated
+Verilog files written for row 86
+Preparing data for  Exams_2012_q1g.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 55 , 65 , 1.248516321182251
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 55 , 65 , 1.507124662399292
+Similarity Exams_2012_q1g.v: 0.83242267370224
+
+Pirated
+Verilog files written for row 103
+Preparing data for  Conditional.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 17 , 19 , 1.2600393295288086
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 17 , 19 , 1.2815124988555908
+Similarity Conditional.v: 0.8710323572158813
+
+Pirated
+Verilog files written for row 106
+Preparing data for  Always_nolatches.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 62 , 62 , 1.304189920425415
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 62 , 62 , 1.2487530708312988
+Similarity Always_nolatches.v: 0.9138067364692688
+
+Pirated
+Verilog files written for row 107
+Preparing data for  Always_if.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 12 , 13 , 1.354382038116455
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 12 , 13 , 1.3152353763580322
+Similarity Always_if.v: 0.494229257106781
+
+Not pirated
+Verilog files written for row 108
+Preparing data for  Always_casez.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 20 , 10 , 1.3822143077850342
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 20 , 10 , 1.2684109210968018
+Similarity Always_casez.v: 0.9292295575141907
+
+Pirated
+Verilog files written for row 109
+Preparing data for  Always_case2.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 99 , 97 , 1.4852943420410156
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 99 , 97 , 1.348374843597412
+Similarity Always_case2.v: 0.9658857583999634
+
+Pirated
+Verilog files written for row 110
+Preparing data for  Always_case.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+An error occurred: 
+Verilog files written for row 116
+Preparing data for  7458.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 28 , 22 , 1.2621629238128662
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 28 , 22 , 1.1908748149871826
+Similarity 7458.v: 0.900806725025177
+
+Pirated
+Verilog files written for row 117
+Preparing data for  7420.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 18 , 16 , 1.3509399890899658
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 18 , 16 , 1.1886215209960938
+Similarity 7420.v: 0.7857171893119812
+
+Pirated
+Verilog files written for row 119
+Preparing data for  Exams_m2014_q4h.v
+filepath:  /mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile1/topModule.v , 2 , 1 , 1.250800609588623
+/mnt/shared-scratch/Rajendran_J/matthewdelorenzo/codellama/h2vFiles/examples/newfile2/topModule.v , 2 , 1 , 1.2457621097564697
+Similarity Exams_m2014_q4h.v: 0.16967986524105072
+
+Not pirated
+Verilog files saved successfully!
